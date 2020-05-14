@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--der Head hat nur Kinder, keine Enkel-->
+    <!--das ist ein Kommentar-->
+    <meta charset="UTF-8" />
+    <!--der Schriftsatz-->
+    <title>Kochen2.0 - Wie toll ist das denn</title>
+    <meta
+      name="description"
+      content="Total leckere Rezepte für Webworker und alle anderen."
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!--Vieport meta-tag wichtig für responsive Webdesign-->
+    <link rel="stylesheet" href="style.css" />
+    <!--stylesheet einbinden-->
+  </head>
+  <body>
+    <header>
+      <a href="#" title="Home">
+        <img
+          src="img/logo.png"
+          alt="Home button Kochmütze"
+          id="homebutton"
+      /></a>
+      <button id="menubutton">
+        <img
+          src="img/menu.svg"
+          alt="Menü"
+          height="40"
+          title="Menü"
+        />
+      </button>
+      <nav id="navigation">
+        <ul id="navlinks">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Rezepte</a>
+          </li>
+          <li>
+            <a href="#">Kategorien</a>
+          </li>
+          <li>
+            <a href="#">über uns</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="intro">Die besten Rezepte für Webworker
+      </section>
+      <div>Es gibt mehr als Pizza & Ravioli</div>
+    </main>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
